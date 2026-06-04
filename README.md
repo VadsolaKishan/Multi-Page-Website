@@ -131,9 +131,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## 📫 Contact
 
-Email: vadsolakishan1310@gmail.com
-
-Project Link: [https://github.com/VadsolaKishan/Multi-Page-Website](https://github.com/VadsolaKishan/Multi-Page-Website)
+- **Email:** vadsolakishan1310@gmail.com
+- **LinkedIn:** [linkedin.com/in/vadsola-kishan](https://linkedin.com/)<!-- Update with your actual LinkedIn if you have one -->
+- **GitHub:** [github.com/VadsolaKishan](https://github.com/VadsolaKishan)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
