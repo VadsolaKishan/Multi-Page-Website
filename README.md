@@ -78,7 +78,7 @@ You will need a modern web browser and optionally a local development server for
    ```
 2. Navigate into the project directory
    ```sh
-   cd Multi-Page-Website
+   cd "Multi-Page Website"
    ```
 3. Open `index.html` in your browser, or start your Live Server to view changes in real-time.
 
