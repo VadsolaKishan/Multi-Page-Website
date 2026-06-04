@@ -11,11 +11,6 @@
 <!-- PROJECT LOGO / HEADER -->
 <br />
 <div align="center">
-  <a href="https://github.com/your-username/your-repo-name">
-    <!-- Replace the src below with your actual logo path if you have one -->
-    <img src="assets/icons/logo.png" alt="Logo" width="90" height="90" style="border-radius: 50%;" onerror="this.src='https://via.placeholder.com/90?text=LOGO'">
-  </a>
-
   <h3 align="center">Multi-Page E-Commerce & Corporate Website</h3>
 
   <p align="center">
@@ -59,8 +54,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## 🌟 About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://your-website.com)
 
 Developing a clean, scalable, and responsive web interface is crucial for modern websites and e-commerce. This project serves as a comprehensive multi-page website template specifically tailored to showcase products, services, and corporate identity while providing a seamless user experience.
 
@@ -170,7 +163,6 @@ Project Link: [https://github.com/your-username/your-repo-name](https://github.c
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: https://via.placeholder.com/1000x500.png?text=Add+Your+Project+Screenshot+Here
 [HTML5-badge]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS3-badge]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
