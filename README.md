@@ -132,7 +132,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 📫 Contact
 
 - **Email:** vadsolakishan1310@gmail.com
-- **LinkedIn:** [linkedin.com/in/vadsola-kishan](https://linkedin.com/)<!-- Update with your actual LinkedIn if you have one -->
+- **LinkedIn:** [linkedin.com/in/kishan-vadsola-a68b05331](https://www.linkedin.com/in/kishan-vadsola-a68b05331)
 - **GitHub:** [github.com/VadsolaKishan](https://github.com/VadsolaKishan)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
