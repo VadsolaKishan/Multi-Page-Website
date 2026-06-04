@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | StyleHub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Style<span>Hub</span></a>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <i class="fa-solid fa-moon" id="theme-toggle"></i>
+                <i class="fa-solid fa-cart-shopping"><span class="cart-count" style="font-size:10px; vertical-align: top;">0</span></i>
+                <i class="fa-solid fa-bars menu-btn" id="menu-btn"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <h1>Collections</h1>
+        <p>Explore the finest selection of clothes.</p>
+    </div>
+
+    <section class="container">
+        <!-- Filters -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="summer">Summer</button>
+            <button class="filter-btn" data-filter="winter">Winter</button>
+            <button class="filter-btn" data-filter="sports">Sports</button>
+        </div>
+
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card glass-card product-item" data-category="summer" data-id="101">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80" alt="Summer Floral Dress">
+                    <div class="product-actions">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                        <button class="add-to-wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Summer Floral Dress</h3>
+                    <div class="price">$85.00</div>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product-card glass-card product-item" data-category="winter" data-id="102">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80" alt="Winter Leather Jacket">
+                    <div class="product-actions">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                        <button class="add-to-wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Premium Leather Jacket</h3>
+                    <div class="price">$190.00</div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card glass-card product-item" data-category="sports" data-id="103">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&q=80" alt="Activewear Set">
+                    <div class="product-actions">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                        <button class="add-to-wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Dynamic Activewear Set</h3>
+                    <div class="price">$65.00</div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card glass-card product-item" data-category="summer" data-id="104">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80" alt="Casual Summer T-Shirt">
+                    <div class="product-actions">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                        <button class="add-to-wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Casual Summer T-Shirt</h3>
+                    <div class="price">$35.00</div>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card glass-card product-item" data-category="winter" data-id="105">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1614676471928-2ed0ad1061a4?w=600&q=80" alt="Cozy Winter Sweater">
+                    <div class="product-actions">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                        <button class="add-to-wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Cozy Winter Sweater</h3>
+                    <div class="price">$75.00</div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card glass-card product-item" data-category="sports" data-id="106">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80" alt="Running Shoes">
+                    <div class="product-actions">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                        <button class="add-to-wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Athletic Running Shoes</h3>
+                    <div class="price">$110.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

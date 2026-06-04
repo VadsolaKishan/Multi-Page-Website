@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleHub | Modern Fashion eCommerce</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Style<span>Hub</span></a>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <i class="fa-solid fa-moon" id="theme-toggle"></i>
+                <i class="fa-solid fa-heart"><span class="wishlist-count" style="font-size:10px; vertical-align: top;">0</span></i>
+                <i class="fa-solid fa-cart-shopping"><span class="cart-count" style="font-size:10px; vertical-align: top;">0</span></i>
+                <i class="fa-solid fa-bars menu-btn" id="menu-btn"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Your True Style</h1>
+            <p>Explore the latest trends in premium fashion for Men, Women, and Kids. Elevate your wardrobe with our exclusive collections.</p>
+            <a href="shop.html" class="btn btn-gold">Shop Collection</a>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="container animate-on-scroll">
+        <h2 class="section-title">Shop by <span>Category</span></h2>
+        <div class="categories-grid">
+            <div class="category-card" onclick="window.location.href='shop.html'">
+                <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=600&q=80" alt="Men's Fashion">
+                <div class="category-info">Men's</div>
+            </div>
+            <div class="category-card" onclick="window.location.href='shop.html'">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&q=80" alt="Women's Fashion">
+                <div class="category-info">Women's</div>
+            </div>
+            <div class="category-card" onclick="window.location.href='shop.html'">
+                <img src="https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=600&q=80" alt="Kids Fashion">
+                <div class="category-info">Kids</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Products -->
+    <section class="container animate-on-scroll">
+        <h2 class="section-title">Trending <span>Now</span></h2>
+        <div class="products-grid">
+            <div class="product-card glass-card" data-id="1">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600&q=80" alt="Elegant Dress">
+                    <div class="product-actions">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                        <button class="add-to-wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                        <button><i class="fa-solid fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Velvet Evening Gown</h3>
+                    <div class="price">$120.00</div>
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                </div>
+            </div>
+            <div class="product-card glass-card" data-id="2">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80" alt="Mens Suit">
+                    <div class="product-actions">
+                        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-plus"></i></button>
+                        <button class="add-to-wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+                        <button><i class="fa-solid fa-eye"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Classic Two-Piece Suit</h3>
+                    <div class="price">$250.00</div>
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                </div>
+            </div>
+            <!-- More products can go here -->
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter animate-on-scroll">
+        <div class="container">
+            <h2>Join Our <span>Newsletter</span></h2>
+            <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn btn-gold">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo" style="color:#fff;">Style<span style="color:var(--color-gold);">Hub</span></a>
+                <p style="margin-top:15px; color:#aaa; font-size:14px;">Premium fashion destination for everyone. Experience luxury clothing and accessories.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="shop.html">Shop Now</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="services.html">Shipping Policy</a></li>
+                    <li><a href="services.html">Returns & Exchanges</a></li>
+                    <li><a href="services.html">Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 StyleHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
