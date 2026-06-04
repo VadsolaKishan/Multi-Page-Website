@@ -16,14 +16,14 @@
   <p align="center">
     A premium, responsive, and dynamic multiple-page website complete with a functional shopping cart, built entirely with standard web technologies.
     <br />
-    <a href="https://github.com/your-username/your-repo-name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/VadsolaKishan/Multi-Page-Website"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://your-live-demo-link.com">View Demo</a>
     ·
-    <a href="https://github.com/your-username/your-repo-name/issues">Report Bug</a>
+    <a href="https://github.com/VadsolaKishan/Multi-Page-Website/issues">Report Bug</a>
     ·
-    <a href="https://github.com/your-username/your-repo-name/issues">Request Feature</a>
+    <a href="https://github.com/VadsolaKishan/Multi-Page-Website/issues">Request Feature</a>
   </p>
 </div>
 
@@ -99,11 +99,11 @@ You will need a modern web browser and optionally a local development server for
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/VadsolaKishan/Multi-Page-Website.git
    ```
 2. Navigate into the project directory
    ```sh
-   cd your-repo-name
+   cd Multi-Page-Website
    ```
 3. Open `index.html` in your browser, or start your Live Server to view changes in real-time.
 
@@ -156,9 +156,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## 📫 Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - youremail@example.com
+vadsolakishan1310@gmail.com
 
-Project Link: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
+Project Link: [https://github.com/VadsolaKishan/Multi-Page-Website](https://github.com/VadsolaKishan/Multi-Page-Website)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,4 +169,5 @@ Project Link: [https://github.com/your-username/your-repo-name](https://github.c
 [CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [JS-badge]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
 [JS-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
 
